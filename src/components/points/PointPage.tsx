@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import PointContent from "./PointContent";
-import useRenderPoint from "../useRenderPoint";
-import createPoints from "../utils/createPoints";
+import useRenderPoint from "../../useRenderPoint";
+import createPoints from "../../utils/createPoints";
 import styled from "styled-components";
 
 const Layout = styled.div`

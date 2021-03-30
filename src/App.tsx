@@ -1,5 +1,5 @@
 import React from "react";
-import PointPage from "./components/PointPage";
+import { PointPage } from "./components";
 import { ThemeProvider } from "styled-components";
 
 const App: React.FC = () => {
