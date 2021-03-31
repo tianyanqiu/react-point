@@ -21,7 +21,10 @@ const StyledItem = styled(ListItem)`
   color: ${({ theme }) => theme.palette.primary.contrastText};
 `;
 
-const NAV_ITEMS = [{ id: "points", title: "圆点移动" }];
+const NAV_ITEMS = [
+  { id: "firstChart", title: "简单示例" },
+  { id: "points", title: "圆点移动" },
+];
 
 export default function NavList() {
   const [selectedId, setSelectedId] = useState("");

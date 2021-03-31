@@ -13,6 +13,7 @@ const ContentLayout = styled.div`
   position: relative;
   margin: 16px;
   box-sizing: border-box;
+  width: 100%;
 `;
 
 const App: React.FC = () => {
